@@ -1,0 +1,20 @@
+# Ignorar arquivos de log
+*.log
+
+# Ignorar a pasta node_modules (muito comum em projetos JavaScript)
+node_modules/
+
+# Ignorar arquivos de configuração local
+.env
+
+# Ignorar arquivos compilados
+/dist
+/build
+
+# Ignorar arquivos temporários do editor
+*.swp
+*.tmp
+
+newAccount.php
+login.php
+market.php

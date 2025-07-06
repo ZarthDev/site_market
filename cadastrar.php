@@ -3,16 +3,16 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Login - Minha Loja</title>
+  <title>Criar Conta - Minha Loja</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <style>
     body {
       background-color: #f2f2f2;
     }
 
-    .login-container {
-      max-width: 400px;
-      margin: 100px auto;
+    .register-container {
+      max-width: 450px;
+      margin: 80px auto;
       padding: 2rem;
       background-color: white;
       border-radius: 8px;
@@ -27,21 +27,25 @@
 </head>
 <body>
   <div class="container">
-    <div class="login-container">
-      <h2 class="form-title">Entrar na Loja</h2>
-      <form method="POST" action="login.php">
+    <div class="register-container">
+      <h2 class="form-title">Criar Conta</h2>
+      <form method="POST" action="newAccount.php">
+        <div class="mb-3">
+          <label for="nome" class="form-label">Nome completo</label>
+          <input type="text" class="form-control" id="nome" name="nome" required>
+        </div>
         <div class="mb-3">
           <label for="email" class="form-label">E-mail</label>
-          <input type="email" class="form-control" id="email" name="email" placeholder="seuemail@exemplo.com" required>
+          <input type="email" class="form-control" id="email" name="email" required>
         </div>
         <div class="mb-3">
           <label for="senha" class="form-label">Senha</label>
-          <input type="password" class="form-control" id="senha" name="senha" placeholder="Digite sua senha" required>
+          <input type="password" class="form-control" id="senha" name="senha" required>
         </div>
-        <button type="submit" class="btn btn-primary w-100">Entrar</button>
+        <button type="submit" class="btn btn-success w-100">Criar Conta</button>
       </form>
       <div class="text-center mt-3">
-        <a href="cadastrar.php">Criar uma conta</a>
+        <a href="index.php">Já tem uma conta? Entrar</a>
       </div>
     </div>
   </div>
