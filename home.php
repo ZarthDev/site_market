@@ -342,7 +342,7 @@
     function addToCart(productName, productPrice) {
         const inputHidden = document.querySelector('input[type="hidden"]');
         inputHidden.value += productName + "#" + productPrice + ";";
-        alert(${productName} foi adicionado ao carrinho!);
+        alert(`${productName} foi adicionado ao carrinho!`);
     }
   </script>
 </body>
