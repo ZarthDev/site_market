@@ -12,6 +12,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Minha Loja Virtual</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
   <style>
     .cart {
       position: fixed;
@@ -354,6 +355,26 @@
 
     </div>
   </div>
+
+  <footer class="bg-dark text-light py-4 mt-5">
+  <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center">
+    <p class="mb-2 mb-md-0">
+      &copy; <?= date('Y') ?> Minha Loja. Todos os direitos reservados.
+    </p>
+    <ul class="list-unstyled d-flex mb-0">
+      <li class="ms-3">
+        <a class="text-info text-decoration-none" href="#"><i class="bi bi-facebook"></i></a>
+      </li>
+      <li class="ms-3">
+        <a class="text-info text-decoration-none" href="#"><i class="bi bi-instagram"></i></a>
+      </li>
+      <li class="ms-3">
+        <a class="text-info text-decoration-none" href="#"><i class="bi bi-envelope-fill"></i></a>
+      </li>
+    </ul>
+  </div>
+</footer>
+
   <script>
     function addToCart(productName, productPrice) {
         const inputHidden = document.querySelector('input[type="hidden"]');
