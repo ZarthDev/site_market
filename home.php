@@ -53,6 +53,22 @@
     </form>
   </nav>
 
+  <div class="container mt-4">
+  <div class="card text-white shadow-sm" style="background-color: #2c3e50;">
+    <div class="card-body d-flex align-items-center">
+      <div class="me-4 text-center">
+        <img src="https://cdn-icons-png.flaticon.com/512/149/149071.png" 
+             alt="avatar" width="70" height="70" 
+             class="rounded-circle border border-3 border-info p-1">
+      </div>
+      <div>
+        <h5 class="mb-1 text-info" style="letter-spacing: 1px;">USERPANEL</h5>
+        <p class="mb-0"><strong>Nome:</strong> <?= htmlspecialchars($_SESSION['usuario_nome']) ?></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
   <!-- Vitrine de produtos -->
   <div class="container mt-4">
     <div class="row" id="product-list">
