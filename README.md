@@ -25,51 +25,7 @@ Um projeto de site de mercado desenvolvido com foco no aprendizado de tecnologia
 - **Bootstrap 5**: Responsividade e layout
 - **XAMPP**: Ambiente de desenvolvimento local (Apache + MySQL)
 
-## 🗂️ Estrutura do Projeto
-
-```
-
-site\_market/
-├── css/
-│   └── style.css
-├── js/
-│   └── script.js
-├── imagens/
-│   └── (imagens dos produtos)
-├── includes/
-│   ├── conexao.php
-│   ├── header.php
-│   └── footer.php
-├── produtos/
-│   ├── cadastrar.php
-│   └── excluir.php
-├── painel.php
-├── index.php
-├── login.php
-├── logout.php
-├── README.md
-
 ````
-
-## ⚙️ Como Rodar o Projeto
-
-1. Instale o [XAMPP](https://www.apachefriends.org/pt_br/index.html) ou outro servidor local com suporte a PHP e MySQL
-2. Clone este repositório na pasta `htdocs`:
-   ```bash
-   git clone https://github.com/ZarthDev/site_market.git
-````
-
-3. Inicie o Apache e o MySQL pelo XAMPP
-4. Crie o banco de dados no **phpMyAdmin** com o nome `site_market` e importe o arquivo `.sql` fornecido (se houver)
-5. Acesse o projeto em `http://localhost/site_market/`
-6. Faça login ou cadastre produtos para visualizar
-
-## 🔐 Credenciais de Acesso (Exemplo)
-
-> Apenas se o sistema tiver usuários pré-configurados
-
-* **Usuário**: [admin@example.com](mailto:admin@example.com)
-* **Senha**: admin123
 
 ## 📌 Observações
 
