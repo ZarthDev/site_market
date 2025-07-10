@@ -1,6 +1,4 @@
-Claro! Com base no repositório [`site_market`](https://github.com/ZarthDev/site_market), criei um exemplo completo de `README.md` para você colocar no projeto. Ele descreve as funcionalidades, tecnologias utilizadas, estrutura do projeto, e instruções de uso.
 
-Você pode colar este conteúdo no arquivo `README.md` na raiz do repositório:
 
 ---
 
@@ -96,7 +94,4 @@ Desenvolvido com 💻 por [ZarthDev](https://github.com/ZarthDev)
 
 ```
 
----
-
-Se quiser, posso adaptar para um tom mais informal, acadêmico ou corporativo. Deseja isso?
 ```
